@@ -18,6 +18,7 @@ public class SumOfPrevious {
 
     public static bool SumOfPrev(int[] numArry, int n, int i, int j)
     {
+        
         if (n <= 1)
             return false;
         if (j < n) {
